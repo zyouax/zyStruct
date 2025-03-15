@@ -20,6 +20,7 @@ To install **ZyStruct**, run:
 ```bash
 pip install .
 ```
+[Fixing "externally-managed-environment"](/doc/fixing-externally-managed-environment.md)
 
 ## 📌 Usage
 Once installed, you can run the tool with:
