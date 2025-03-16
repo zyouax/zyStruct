@@ -213,6 +213,10 @@ EXCLUDE_FILE = "zyNote.md"
 </tbody>
 </details>
 
+## 🚀 Possible improvement by yourself
+
+You can also modify the `zyNote.md` located in [`src/config.py`](/src/config.py) to replace it with `.gitignore` if you use it and don't want sensitive information to appear in the output.
+
 ## Supporters
 
 [![Stargazers repo roster for @zyouax/zyStruct](https://reporoster.com/stars/dark/zyouax/zyStruct)](https://github.com/zyouax/zyStruct/stargazers)
