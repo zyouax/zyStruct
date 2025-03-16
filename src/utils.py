@@ -32,7 +32,7 @@ def list_files(directory, excluded_paths):
 
 def write_structure_to_file(files, structure, output_file):
     with open(output_file, "w", encoding="utf-8") as out:
-        out.write("# Architecture du projet\n\n")
+        out.write("# Project architecture\n\n")
         out.write("\n".join(structure) + "\n\n")
         for file in files:
             out.write(f"`{file}` :\n\n")
@@ -41,4 +41,4 @@ def write_structure_to_file(files, structure, output_file):
                     content = f.read()
                     out.write("```\n" + content + "\n```\n\n")
             except Exception as e:
-                out.write(f"Erreur de lecture : {e}\n\n")
+                out.write(f"Reading error : {e}\n\n")

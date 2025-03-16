@@ -7,7 +7,7 @@ def main():
     excluded_paths = load_exclusions(EXCLUDE_FILE)
     files, structure = list_files(project_root, excluded_paths)
     write_structure_to_file(files, structure, OUTPUT_FILE)
-    print(f"Fichier {OUTPUT_FILE} généré avec succès.")
+    print(f"File {OUTPUT_FILE} generated successfully.")
 
 if __name__ == "__main__":
     main()
